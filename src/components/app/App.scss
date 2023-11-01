@@ -1,0 +1,9 @@
+@import '../../style/variable.scss';
+
+.App {
+  max-width: 500px;
+  min-height: 400px;
+  padding: 10px;
+  background-color: $main-bgColor;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

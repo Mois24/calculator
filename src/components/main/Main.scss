@@ -1,0 +1,32 @@
+
+@import '../../style/variable.scss';
+
+.wrapper {   
+    .second {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: 10px 0 10px 10px;
+        .toggle {
+            margin-right: auto;
+        }
+        .text {
+            text-align: right;
+            margin-right: 10%;
+            color: $text-color;
+            font-weight: 600;
+        }
+        .img {
+            max-width: 40px;
+            margin-right: 20px;
+        }
+    }
+
+    
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

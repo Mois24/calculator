@@ -1,0 +1,32 @@
+@import './variable.scss';;
+.button {
+    width: 15%;
+    height: 60px;
+    color: $text-color;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bgNumber {
+    font-size: 1.5em;
+    background-color: $main-bgColor;
+    box-shadow: rgba(200, 200, 200, 0.35) 0px 5px 15px;
+}
+
+.bgGreenButton {
+    font-size: 2em;
+    background-color: $bgButtonGreen;
+}
+
+.size-text {
+    font-size: 1em!important;
+}
+
+.bgOperation {
+    font-size: 2em;
+    background-color: $bgButtonOperation;
+}
