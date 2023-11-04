@@ -2,7 +2,11 @@ import "./Screen.scss";
 
 const Screen = (props) => {
     return (
-        <div className={props.screen ? 'light-screen' : 'screen'}>0</div>
+        <div className={props.screen ? 'light-screen' : 'screen'}>
+            <span>
+                {props.visible ? props.number : null}
+            </span>
+        </div>
     )
 }
 

@@ -1,8 +1,8 @@
 import '../../../style/button.scss';
 
-const ButtonOne = () => {
+const ButtonOne = (props) => {
     return (
-        <button className="button bgNumber mg">1</button>
+        <button onClick={() => {props.getOne('1')}} className="button bgNumber mg">1</button>
     )
 }
 

@@ -1,8 +1,8 @@
 import '../../../style/button.scss';
 
-const ButtonPlus = () => {
+const ButtonPlus = (props) => {
     return (
-        <button className="button bgGreenButton mg">+</button>
+        <button onClick={() => {props.getPlus('+')}} className="button bgGreenButton mg">+</button>
     )
 }
 
